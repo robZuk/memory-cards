@@ -20,6 +20,7 @@ const cardsEl = [];
 // Store card data
 const cardsData = getCardsData();
 
+//hide Delete button
 function hideDeleteButton() {
   if (cardsData.length === 0) {
     deleteBtn.classList.add('hidden');
@@ -27,21 +28,6 @@ function hideDeleteButton() {
 }
 
 hideDeleteButton();
-
-// const cardsData = [
-//   {
-//     question: 'What must a variable begin with?',
-//     answer: 'A letter, $ or _'
-//   },
-//   {
-//     question: 'What is a variable?',
-//     answer: 'Container for a piece of data'
-//   },
-//   {
-//     question: 'Example of Case Sensitive Variable',
-//     answer: 'thisIsAVariable'
-//   }
-// ];
 
 // Create all cards
 function createCards() {

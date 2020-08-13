@@ -27,6 +27,12 @@ h1 button {
   z-index: 2;
 }
 
+#delete {
+  padding: 5px 10px;
+  margin: 20px 0;
+  transform: translate(130%, 0%);
+}
+
 .btn {
   cursor: pointer;
   background-color: #fff;
